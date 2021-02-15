@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "yohoho-kinopoisk",
+  "version": "0.1",
+  "description": "yohoho",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.kinopoisk.ru/*"
+      ],
+      "js": [
+        "index.js"
+      ]
+    }
+  ]
+}
